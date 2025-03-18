@@ -38,7 +38,7 @@ nup85_atomic0 = nup85_mol0.add_structure(nup85_pdb_fn, chain_id='A',offset=0,ca_
 
 nup85_mol0.add_representation(nup85_mol0.get_atomic_residues(),
 	resolutions=[1],
-	density_residues_per_component=1,
+	density_residues_per_component=10,
 	density_prefix=out_path+'/nup85_0_gmm',
 	density_force_compute=True,
 	density_voxel_size=10.0
